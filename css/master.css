@@ -6,6 +6,7 @@
   --Light-Grayish-Magneta: hsl(300, 24%, 96%);
   --White: hsl(0, 0%, 100%);
   --Font-Size: 15px;
+  --Star-Color: #ffc107;
 }
 /*-----------------------------------------------------------  End Variables */
 /*------------------------------------------------------  Start Global Rules */
@@ -26,6 +27,26 @@ body {
   display: grid;
   align-items: center;
   min-height: 100vh;
+}
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../images/bg-pattern-top-desktop.svg);
+  background-size: 400px 400px;
+  width: 400px;
+  height: 400px;
+}
+body::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-image: url(../images/bg-pattern-bottom-desktop.svg);
+  background-size: 400px 400px;
+  width: 400px;
+  height: 400px;
 }
 a {
   text-decoration: none;
@@ -58,5 +79,34 @@ ul {
 }
 /*--------------------------------------------------------  End Global Rules */
 /*--------------------------------------------------------------  Start Code */
-
+.container {
+}
+.container .header {
+}
+.header .left {
+}
+.header .left h1 {
+}
+.header .left p {
+}
+.header .right {
+}
+.header .right .box {
+}
+.header .right .box i {
+}
+.header .right .box h6 {
+}
+.container .footer {
+}
+.footer .foot {
+}
+.footer .foot img {
+}
+.footer .foot h5 {
+}
+.footer .foot h6 {
+}
+.footer .foot p {
+}
 /*----------------------------------------------------------------  End Code */
