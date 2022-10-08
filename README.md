@@ -1,6 +1,6 @@
 - Overview:
-  - [Social Proof Section Master](#the-challenge)
-  - [https://wella4life.github.io/Challenge_6_Easy/](#links)
+  - [Social Proof Section Master]
+  - [https://wella4life.github.io/Challenge_6_Easy/]
   - ![](images/Finished-Desktop.jpg)
 
  - Users should be able to:
